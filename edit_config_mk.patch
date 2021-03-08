@@ -1,0 +1,21 @@
+commit 7a013dd1af0bb0fb50ea4496910c98c53c7dd840 (HEAD -> kowalczy-dwm-fedora)
+Author: Jacek Kowalczyk <jacekkowalczyk82@gmail.com>
+Date:   Tue Nov 20 14:25:20 2018 +0100
+
+    compile at fedora
+
+diff --git a/config.mk b/config.mk
+index 25e2685..7d6d132 100644
+--- a/config.mk
++++ b/config.mk
+@@ -7,8 +7,8 @@ VERSION = 6.1
+ PREFIX = /usr/local
+ MANPREFIX = ${PREFIX}/share/man
+
+-X11INC = /usr/X11R6/include
+-X11LIB = /usr/X11R6/lib
++X11INC = /usr/include/X11
++X11LIB = /usr/lib64/X11
+
+ # Xinerama, comment if you don't want it
+ XINERAMALIBS  = -lXinerama
