@@ -1,5 +1,4 @@
 # dwm
-# ---
 This works only in \*nix environments
 
 One of the main advantages for me is dwm is completely written in C programming language
